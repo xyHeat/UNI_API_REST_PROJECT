@@ -42,3 +42,34 @@ Sending our commit to the dev branch.
 6. Creating README.md
 Including the following text:
 "Expressjs and Knex.js web service that performs CRUD operations against a MySQL database." 
+
+7. Pushing created README File
+> git add .
+Adding new files
+
+> git commit -m "Commit 3"
+Creating Commit
+
+> git push origin dev
+Sending our commit to the dev branch.
+
+8. Merging our master and dev branches
+Since "pull-request" isn't a git command (win10), we have to do it on the github project page.
+
+> git switch master
+Going back to our origin branch
+
+> git merge dev
+Merging dev into our local master branch
+
+> git add .
+Adding new files
+
+> git push origin master
+Applying the merge.
+
+
+
+### LINK TO THE REPOSITORY
+https://github.com/xyHeat/UNI_API_REST_PROJECT
+(Commit 4 is used to update this file in the repository)

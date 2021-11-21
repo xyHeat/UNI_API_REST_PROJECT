@@ -1,0 +1,38 @@
+1. Creating Public Repository.
+I used my existing account, and created a repository named "UNI_API_REST_PROJECT".
+
+2. Using Github help to push a node .gitignore file.
+To create the wanted file, I used the file named 'Node.gitignore' located in the provided github link.
+
+3. Pushing existing content to github.
+> git init
+Initialising our git folder
+
+> git remote add origin https://github.com/xyHeat/UNI_API_REST_PROJECT.git
+Creating remote link
+
+> git add .
+Adding our .gitgnore file
+
+> git commit -m "Commit 1"
+Creating a commit with the name "Commit 1"
+
+> git push -u origin master
+Sending our commit to the remote link.
+
+4. Creating a new 'dev' Branch
+> git pull origin master
+Update our local repository
+
+> git checkout -b dev
+Create a local branch and switch to it
+
+5. Sending our rest api
+Note: I used the provided zip file, where I renamed "myapp" to "src".
+
+> git add .
+Adding new files
+
+> git commit -m "Commit 2"
+CReating Commit
+ 

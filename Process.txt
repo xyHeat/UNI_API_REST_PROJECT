@@ -34,5 +34,11 @@ Note: I used the provided zip file, where I renamed "myapp" to "src".
 Adding new files
 
 > git commit -m "Commit 2"
-CReating Commit
- 
+Creating Commit
+
+> git push origin dev
+Sending our commit to the dev branch.
+
+6. Creating README.md
+Including the following text:
+"Expressjs and Knex.js web service that performs CRUD operations against a MySQL database." 

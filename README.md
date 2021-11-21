@@ -1,0 +1,1 @@
+Expressjs and Knex.js web service that performs CRUD operations against a MySQL database.
